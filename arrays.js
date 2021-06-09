@@ -96,3 +96,25 @@ for  (let card of cards){
 
 console.log(faceCards)
 console.log(numberedCards)
+
+
+let anials = [
+    "bat", "tiger", "yak",
+    "monkey", "snake", "lizard",
+    "panda", "monkey", "hyena",
+]
+
+let zooTrip = {
+    seen: [],
+    animalsSeen: 0
+}
+
+animals.forEach((animal) => {
+        console.log(`${animal} was seen today at the zoo!`)
+})
+
+console.log(zooTrip.seen)
+
+function seenAtTheZoo(animal) {
+    zooTrip.seen.push(animal)
+}
